@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url('../Rooms/room_morning.png');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /*background-size: 70%;*/
+    /*background-color: black;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.room-container {
+    position: absolute;
+    text-align: center;
+}
+
+.CRT {
+    position: relative;
+    width: 10%;
+    height: 10%;
+    transform: translate(604%, -535%);
+}
+
+.CRT-front {
+    position: relative;
+    width: 24%;
+    height: 24%;
+    transform: translate(124%, -145%);
+}
+
+.CRT-middle {
+    position: relative;
+    width: 13%;
+    height: 13%;
+    transform: translate(520%, -520%);
+}
